@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bodycover">
+      <h1 style="text-align: center; color: white">Session Tracker</h1>
+      <div
+        style="
+          color: rgb(109, 252, 109);
+          font-size: 15px;
+          text-align: center;
+          font-size: 22px;
+          margin-bottom: 2rem;
+        "
+        id="showmessage"
+      ></div>
+      <div style="text-align: center">
+        <button onclick="getSessionData()" class="refreshbtn">
+          Click to Refresh Session
+        </button>
+      </div>
+      <div style="text-align: center; margin-top: 3rem">
+        <a href="session.html" class="viewsession">View Session Data</a>
+      </div>
+    </div>
+    <script src="session.js"></script>
+  </body>
+</html>
